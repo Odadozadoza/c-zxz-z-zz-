@@ -1,57 +1,54 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Вкуснейшая пицца с доставкой по городу. Свежие ингредиенты и горячая подача!">
-    <meta name="author" content="Pizza House">
-    <meta property="og:site_name" content="Pizza House">
-    <meta property="og:title" content="Pizza House — настоящая итальянская пицца">
+    <!-- <meta name="keywords" content=""> -->
+    <meta name="description" content="Небольшое веб-приложение для заказа вкусной пиццы онлайн">
+    <meta name="author" content="Super Pizza">
+    <meta name="copyright" content="Super Pizza Store">
+    <meta name="address" content="г. Москва, ул. Вкусная, 10">
+    <meta property="og:site_name" content="Super Pizza">
+    <meta property="og:title" content="Super Pizza — лучшая пицца в городе">
     <meta property="og:image" content="img/logo.png">
     <meta property="og:url" content="#">
-    <title>Pizza House — настоящая итальянская пицца</title>
+    <title>Super Pizza — лучшая пицца в городе</title>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/index.css">
 </head>
-
 <body>
     <div class="_wrapper">
         <header class="global">
             <div class="_container">
                 <div class="header-global_inner">
                     <h2 class="logotype">
-                        <a href="index.html">🍕 Pizza House</a>
+                        <a href="index.html">Super Pizza</a>
                     </h2>
                 </div>
             </div>
         </header>
-
         <main>
-            <!-- Главная секция -->
             <section class="front-page">
                 <div class="_container">
                     <div class="front-page_inner">
                         <article>
-                            <h1>Горячая пицца с доставкой</h1>
-                            <p>Свежая, ароматная и приготовленная по традиционным рецептам Италии</p>
+                            <h1>Super Pizza</h1>
+                            <p>Свежая, горячая и невероятно вкусная пицца с доставкой</p>
                             <div class="img_container">
-                                <img src="img/logo.png" alt="Логотип пиццерии">
+                                <img src="img/logo.png">
                             </div>
                         </article>
                     </div>
                 </div>
             </section>
-
-            <!-- Хиты продаж -->
             <section class="bestsellers">
                 <div class="_container">
                     <div class="bestsellers_inner">
-                        <h2>🔥 Хиты продаж</h2>
+                        <h2>Популярные пиццы</h2>
                         <div class="items_container">
-
                             <article name="margherita">
                                 <div class="item_view img_container">
-                                    <img src="img/margherita.jpg" alt="Пицца Маргарита">
+                                    <img src="img/margherita.jpg">
                                 </div>
                                 <div class="item_info">
                                     <h3>Маргарита</h3>
@@ -61,72 +58,62 @@
                                     <button name="buy_item">Заказать</button>
                                 </div>
                             </article>
-
                             <article name="pepperoni">
                                 <div class="item_view img_container">
-                                    <img src="img/pepperoni.jpg" alt="Пицца Пепперони">
+                                    <img src="img/pepperoni.jpg">
                                 </div>
                                 <div class="item_info">
                                     <h3>Пепперони</h3>
-                                    <p>Томатный соус, моцарелла, пикантная колбаса пепперони</p>
+                                    <p>Томатный соус, моцарелла, острая пепперони</p>
                                 </div>
                                 <div class="button_block">
                                     <button name="buy_item">Заказать</button>
                                 </div>
                             </article>
-
                             <article name="four_cheese">
                                 <div class="item_view img_container">
-                                    <img src="img/four_cheese.jpg" alt="Пицца Четыре сыра">
+                                    <img src="img/four_cheese.jpg">
                                 </div>
                                 <div class="item_info">
                                     <h3>Четыре сыра</h3>
-                                    <p>Моцарелла, дорблю, пармезан, чеддер</p>
+                                    <p>Моцарелла, дорблю, пармезан и чеддер</p>
                                 </div>
                                 <div class="button_block">
                                     <button name="buy_item">Заказать</button>
                                 </div>
                             </article>
-
                         </div>
                     </div>
                 </div>
             </section>
-
-            <!-- Форма подписки -->
             <section class="reg_form">
                 <div class="_container">
                     <div class="reg_form_inner">
-                        <h2><label for="userFullName">🎁 Получить скидку 10%</label></h2>
+                        <h2><label for="userFullName">Заказ пиццы</label></h2>
                         <article>
                             <form action="#" method="post">
                                 <div class="form-places">
-                                    
                                     <div class="user-name_place">
                                         <label>
-                                            <span class="label_place">Ваше имя</span>
-                                            <input type="text" name="user_name" id="userFullName">
+                                            <span class="label_place">ФИО</span>
+                                            <input type="text" name="user_full_name" id="userFullName">
                                         </label>
                                     </div>
-
                                     <div class="user-email_place">
                                         <label>
-                                            <span class="label_place">Email</span>
-                                            <input type="email" name="user_email" id="userEmail">
+                                            <span class="label_place">Почта</span>
+                                            <input type="text" name="user_email" id="userEmail">
                                         </label>
                                     </div>
-
                                     <div class="user-tel_place">
                                         <label>
                                             <span class="label_place">Телефон</span>
-                                            <input type="tel" name="user_tel" id="userTel">
+                                            <input type="text" name="user_tel" id="userTel">
                                         </label>
                                     </div>
-
                                 </div>
-
                                 <div class="form-buttons">
-                                    <input type="submit" name="send_reg" value="Получить скидку">
+                                    <input type="button" name="send_reg" value="Оформить заказ">
                                     <input type="reset" name="clear_reg" value="Очистить">
                                 </div>
                             </form>
@@ -134,10 +121,8 @@
                     </div>
                 </div>
             </section>
-
         </main>
     </div>
-
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script src="js/script.js"></script>
 </body>

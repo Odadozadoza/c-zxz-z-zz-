@@ -1,119 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <meta name="keywords" content=""> -->
-    <meta name="description" content="Это небольшое веб-приложение для уроков по курсу &laquo;Искусственный интеллект и большие данные&raquo; Компьютерной Академии Топ">
-    <meta name="author" content="Teacher Top Academy">
-    <meta name="copyright" content="АНО ДПО &quot;Академия ТОП&quot;">
-    <meta name="address" content="Кутузовский пр-кт, д 36 стр 2">
-    <meta property="og:site_name" content="Super Shape">
-    <meta property="og:title" content="Super Shape &mdash; экшен-фигурки супергероев из комиксов Marvel">
-    <meta property="og:image" content="https://github.com/SurVile/Top-Python-App/blob/main/img/logo.png">
-    <meta property="og:url" content="https://survile.github.io/Top-Python-App/">
-    <title>Super Shape &mdash; экшен-фигурки супергероев из комиксов Marvel</title>
+    <meta name="description" content="Вкуснейшая пицца с доставкой по городу. Свежие ингредиенты и горячая подача!">
+    <meta name="author" content="Pizza House">
+    <meta property="og:site_name" content="Pizza House">
+    <meta property="og:title" content="Pizza House — настоящая итальянская пицца">
+    <meta property="og:image" content="img/logo.png">
+    <meta property="og:url" content="#">
+    <title>Pizza House — настоящая итальянская пицца</title>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/index.css">
 </head>
+
 <body>
     <div class="_wrapper">
         <header class="global">
             <div class="_container">
                 <div class="header-global_inner">
                     <h2 class="logotype">
-                        <a href="index.html">Super Shape</a>
+                        <a href="index.html">🍕 Pizza House</a>
                     </h2>
                 </div>
             </div>
         </header>
+
         <main>
+            <!-- Главная секция -->
             <section class="front-page">
                 <div class="_container">
                     <div class="front-page_inner">
                         <article>
-                            <h1>Super Form</h1>
-                            <p>Ультра классные экшен-фигурки супергероев из комиксов Marvel</p>
+                            <h1>Горячая пицца с доставкой</h1>
+                            <p>Свежая, ароматная и приготовленная по традиционным рецептам Италии</p>
                             <div class="img_container">
-                                <img src="img/logo.png">
+                                <img src="img/logo.png" alt="Логотип пиццерии">
                             </div>
                         </article>
                     </div>
                 </div>
             </section>
+
+            <!-- Хиты продаж -->
             <section class="bestsellers">
                 <div class="_container">
                     <div class="bestsellers_inner">
-                        <h2>Хиты продаж</h2>
+                        <h2>🔥 Хиты продаж</h2>
                         <div class="items_container">
-                            <article name="dead_pool">
+
+                            <article name="margherita">
                                 <div class="item_view img_container">
-                                    <img src="img/dead pool.webp">
+                                    <img src="img/margherita.jpg" alt="Пицца Маргарита">
                                 </div>
                                 <div class="item_info">
-                                    <h3>Dead Pool</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                    <h3>Маргарита</h3>
+                                    <p>Томатный соус, моцарелла, свежий базилик</p>
                                 </div>
                                 <div class="button_block">
-                                    <button name="buy_item">Купить</button>
+                                    <button name="buy_item">Заказать</button>
                                 </div>
                             </article>
-                            <article name="spider_man">
+
+                            <article name="pepperoni">
                                 <div class="item_view img_container">
-                                    <img src="img/spider man.jpeg">
+                                    <img src="img/pepperoni.jpg" alt="Пицца Пепперони">
                                 </div>
                                 <div class="item_info">
-                                    <h3>Spider Man</h3>
-                                    <p>Nullam at ante quis urna ultricies eleifend vitae ut diam</p>
+                                    <h3>Пепперони</h3>
+                                    <p>Томатный соус, моцарелла, пикантная колбаса пепперони</p>
                                 </div>
                                 <div class="button_block">
-                                    <button name="buy_item">Купить</button>
+                                    <button name="buy_item">Заказать</button>
                                 </div>
                             </article>
-                            <article name="iron_man">
+
+                            <article name="four_cheese">
                                 <div class="item_view img_container">
-                                    <img src="img/iron man.jpg">
+                                    <img src="img/four_cheese.jpg" alt="Пицца Четыре сыра">
                                 </div>
                                 <div class="item_info">
-                                    <h3>Iron Man</h3>
-                                    <p>Morbi eu orci posuere, pellentesque urna at, varius libero</p>
+                                    <h3>Четыре сыра</h3>
+                                    <p>Моцарелла, дорблю, пармезан, чеддер</p>
                                 </div>
                                 <div class="button_block">
-                                    <button name="buy_item">Купить</button>
+                                    <button name="buy_item">Заказать</button>
                                 </div>
                             </article>
+
                         </div>
                     </div>
                 </div>
             </section>
+
+            <!-- Форма подписки -->
             <section class="reg_form">
                 <div class="_container">
                     <div class="reg_form_inner">
-                        <h2><label for="userFullName">Подписка</label></h2>
+                        <h2><label for="userFullName">🎁 Получить скидку 10%</label></h2>
                         <article>
                             <form action="#" method="post">
                                 <div class="form-places">
+                                    
                                     <div class="user-name_place">
                                         <label>
-                                            <span class="label_place">ФИО</span>
-                                            <input type="text" name="user_full_name" id="userFullName">
+                                            <span class="label_place">Ваше имя</span>
+                                            <input type="text" name="user_name" id="userFullName">
                                         </label>
                                     </div>
+
                                     <div class="user-email_place">
                                         <label>
-                                            <span class="label_place">Почта</span>
-                                            <input type="text" name="user_email" id="userEmail">
+                                            <span class="label_place">Email</span>
+                                            <input type="email" name="user_email" id="userEmail">
                                         </label>
                                     </div>
+
                                     <div class="user-tel_place">
                                         <label>
                                             <span class="label_place">Телефон</span>
-                                            <input type="text" name="user_tel" id="userTel">
+                                            <input type="tel" name="user_tel" id="userTel">
                                         </label>
                                     </div>
+
                                 </div>
+
                                 <div class="form-buttons">
-                                    <input type="button" name="send_reg" value="Отправить">
+                                    <input type="submit" name="send_reg" value="Получить скидку">
                                     <input type="reset" name="clear_reg" value="Очистить">
                                 </div>
                             </form>
@@ -121,11 +134,11 @@
                     </div>
                 </div>
             </section>
+
         </main>
     </div>
 
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script src="js/script.js"></script>
 </body>
-
 </html>
